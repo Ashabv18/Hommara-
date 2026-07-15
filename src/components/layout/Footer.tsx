@@ -1,20 +1,20 @@
 import Link from "next/link";
 
 const shopLinks = [
-  { name: "Kurtas & Tunics", href: "#" },
-  { name: "Dresses & Gowns", href: "#" },
-  { name: "Ethnic Sets", href: "#" },
-  { name: "Bottoms & Leggings", href: "#" },
-  { name: "Bags & Accessories", href: "#" },
-  { name: "Best Sellers", href: "#" },
+  { name: "Kurtas & Tunics", href: "/category/women/kurtas" },
+  { name: "Dresses & Gowns", href: "/category/women/dresses" },
+  { name: "Ethnic Sets", href: "/category/women/ethnic-sets" },
+  { name: "Bottoms & Leggings", href: "/category/women/bottoms" },
+  { name: "Bags & Accessories", href: "/category/women/accessories" },
+  { name: "Best Sellers", href: "/category/best-sellers" },
 ];
 
 const helpLinks = [
-  { name: "Shipping Information", href: "#" },
-  { name: "Size Guide", href: "#" },
-  { name: "Easy Returns & Exchanges", href: "#" },
-  { name: "Track Your Order", href: "#" },
-  { name: "Contact Us", href: "#" },
+  { name: "Shipping Information", href: "/track-order" },
+  { name: "Size Guide", href: "/size-guide" },
+  { name: "Easy Returns & Exchanges", href: "/returns" },
+  { name: "Track Your Order", href: "/track-order" },
+  { name: "Contact Us", href: "/contact" },
 ];
 
 export default function Footer() {
@@ -111,13 +111,13 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-4">
             <Link
-              href="#"
+              href="/privacy-policy"
               className="text-xs text-white/40 hover:text-white/70 transition-colors font-sans"
             >
               Privacy Policy
             </Link>
             <Link
-              href="#"
+              href="/terms-of-service"
               className="text-xs text-white/40 hover:text-white/70 transition-colors font-sans"
             >
               Terms of Service

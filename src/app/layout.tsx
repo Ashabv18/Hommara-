@@ -7,6 +7,7 @@ import AnnouncementBar from "@/components/layout/AnnouncementBar";
 import Navbar from "@/components/layout/Navbar";
 import CartDrawer from "@/components/cart/CartDrawer";
 import Footer from "@/components/layout/Footer";
+import BackgroundAnimation from "@/components/layout/BackgroundAnimation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,6 +41,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
       </head>
       <body className="min-h-full flex flex-col bg-white text-neutral-900">
+        <BackgroundAnimation />
         <AuthProvider>
           <CartProvider>
             <AnnouncementBar />

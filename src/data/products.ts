@@ -201,7 +201,7 @@ export const products: Product[] = [
     name: "Embroidered Straight Kurta",
     slug: "embroidered-straight-kurta-k1",
     category: "Kurtas & Tunics",
-    price: 1799,
+    price: 1400,
     description:
       "A timeless straight-cut kurta adorned with delicate embroidery along the neckline and sleeves. The clean silhouette and soft fabric make it a wardrobe essential for both casual outings and festive occasions. Pair with jeans or leggings for a balanced contemporary look.",
     colors: [
@@ -221,7 +221,7 @@ export const products: Product[] = [
     name: "Printed A-Line Cotton Kurta",
     slug: "printed-a-line-cotton-kurta-k2",
     category: "Kurtas & Tunics",
-    price: 1499,
+    price: 1350,
     description:
       "A breezy A-line cotton kurta featuring vibrant all-over prints. The relaxed fit and breathable fabric keep you comfortable through long days. Perfect for college, office, or weekend outings. Style it with skinny jeans or classic leggings for an easy upgrade.",
     colors: [
@@ -241,7 +241,7 @@ export const products: Product[] = [
     name: "Casual Collar Neck Kurta",
     slug: "casual-collar-neck-kurta-k3",
     category: "Kurtas & Tunics",
-    price: 1299,
+    price: 1400,
     description:
       "A modern collared kurta crafted from soft cotton with a structured yet relaxed fit. Features subtle stitching details and a side vent for ease of movement. A versatile piece that transitions seamlessly from workwear to weekend casual.",
     colors: [
@@ -261,7 +261,7 @@ export const products: Product[] = [
     name: "Floral Embroidered Tunic",
     slug: "floral-embroidered-tunic-k4",
     category: "Kurtas & Tunics",
-    price: 2199,
+    price: 1300,
     description:
       "An elegant tunic featuring hand-finished floral embroidery on a soft fabric base. The slightly dropped shoulders and curved hem create a flattering silhouette. Ideal for brunches, office casual, or festive day events when paired with minimal accessories.",
     colors: [
@@ -281,7 +281,7 @@ export const products: Product[] = [
     name: "Classic V-Neck Cotton Kurta",
     slug: "classic-v-neck-cotton-kurta-k5",
     category: "Kurtas & Tunics",
-    price: 1699,
+    price: 1400,
     description:
       "A classic V-neck kurta in pure cotton with understated pleat detailing on the front. The relaxed fit and smooth texture make it a go-to choice for daily wear. Pair with joggers or leggings for a smart-casual vibe that feels effortless.",
     colors: [
@@ -301,7 +301,7 @@ export const products: Product[] = [
     name: "Floral Printed Midi Dress",
     slug: "floral-printed-midi-dress-d1",
     category: "Dresses & Gowns",
-    price: 2799,
+    price: 999,
     description:
       "A charming floral printed midi dress with a flattering A-line silhouette. The soft pastel tones and flowing fabric make it a perfect choice for daytime events, brunch dates, and garden parties. Features a flared skirt and an easy-to-wear button-down front.",
     colors: [
@@ -321,7 +321,7 @@ export const products: Product[] = [
     name: "Elegant Evening Maxi Dress",
     slug: "elegant-evening-maxi-dress-d2",
     category: "Dresses & Gowns",
-    price: 3299,
+    price: 699,
     description:
       "A sophisticated maxi dress crafted for evening elegance. The rich fabric and refined silhouette create a timeless look perfect for weddings, receptions, and formal dinners. Subtle detailing at the waist adds a graceful feminine touch while ensuring all-night comfort.",
     colors: [
@@ -341,7 +341,7 @@ export const products: Product[] = [
     name: "Casual Day Dress with Pockets",
     slug: "casual-day-dress-pockets-d3",
     category: "Dresses & Gowns",
-    price: 1899,
+    price: 1200,
     description:
       "A comfortable day dress designed with practical side pockets and a relaxed fit. The breathable cotton fabric keeps you cool while the playful print adds character. Ideal for shopping trips, casual Fridays, or simply lounging in style.",
     colors: [
@@ -361,7 +361,7 @@ export const products: Product[] = [
     name: "Ruffled Wrap Dress",
     slug: "ruffled-wrap-dress-d4",
     category: "Dresses & Gowns",
-    price: 2499,
+    price: 699,
     description:
       "A stunning wrap dress with delicate ruffle detailing along the neckline and hem. The wrap-style cinches at the waist to create a beautiful hourglass shape, while the soft fabric drapes gracefully. Perfect for date nights, parties, and celebratory occasions.",
     colors: [
@@ -378,50 +378,49 @@ export const products: Product[] = [
   },
   {
     id: "31",
-    name: "Handcrafted Beaded Earrings",
+    name: "Traditional Antique Gold-Plated Necklace and Earrings Combo Set",
     slug: "handcrafted-beaded-earrings-g1",
     category: "Accessories",
-    price: 599,
+    price: 1200,
     description:
-      "Beautifully handcrafted beaded earrings that add a pop of color to any outfit. Lightweight and comfortable for all-day wear, these earrings are perfect for both casual and festive occasions. Each pair is carefully assembled by skilled artisans.",
+      "An antique-style gold-plated necklace and matching earrings set featuring intricate filigree work and traditional motifs. Perfect for weddings, festivals, and special occasions to add a touch of timeless elegance.",
     colors: [
-      { name: "Multicolor", hex: "#E8A0BF" },
+      { name: "Multicolor", hex: "#E8A0BF" }
     ],
     sizes: ["One Size"],
     images: [
-      "/g1.jpeg",
+      "/g1.jpeg"
     ],
     badge: "New",
-    fabricCare: "Store in a dry place. Avoid contact with water and perfumes. Clean with a soft dry cloth.",
-    sizeGuide: "One size fits all. Length: approximately 2 inches.",
-    modelInfo: "Pair with ethnic or fusion wear for a complete look",
+    fabricCare: "Store in a separate airtight pouch or box. Keep away from water, perfumes, and other chemicals. Clean with a soft, dry microfiber cloth after use.",
+    sizeGuide: "One size fits all. Adjustable drawstring (Tariz) for the necklace length.",
+    modelInfo: "Pair with a festive saree, lehenga, or grand ethnic fusion wear for a complete traditional look."
   },
   {
-    id: "32",
-    name: "Embroidered Clutch Purse",
-    slug: "embroidered-clutch-purse-g2",
-    category: "Accessories",
-    price: 899,
-    description:
-      "A stunning embroidered clutch purse featuring intricate thread work and a secure magnetic closure. The compact size fits all your essentials — phone, cards, and lipstick — making it the perfect companion for weddings, parties, and evening events.",
-    colors: [
-      { name: "Gold & Red", hex: "#B8860B" },
-    ],
-    sizes: ["One Size"],
-    images: [
-      "/g2.jpeg",
-    ],
-    badge: "New",
-    fabricCare: "Spot clean with a damp cloth. Do not machine wash. Store in protective pouch.",
-    sizeGuide: "Dimensions: 8\" x 5\" x 1.5\". Detachable wrist strap included.",
-    modelInfo: "Pairs well with lehengas and ethnic suits",
-  },
+  id: "32",
+  name: "Antiquity Temple Laxmi Necklace Set",
+  slug: "antiquity-temple-laxmi-necklace-set",
+  category: "Accessories",
+  price: 699,
+  description: "An exquisite antique-finished temple jewelry set featuring a detailed necklace with Goddess Lakshmi motifs and elegant matching earrings. Beautifully accented with delicate pearl droplets, this set brings timeless grace to bridal, festive, and traditional attire.",
+  colors: [
+    { name: "Gold", hex: "#D4AF37" }
+  ],
+  sizes: ["One Size"],
+  images: [
+    "/g2.jpeg"
+  ],
+  badge: "New",
+  fabricCare: "Avoid contact with water, perfumes, and heat. Store in a soft pouch or airtight box after use.",
+  sizeGuide: "Adjustable necklace chain with matching hanging earrings.",
+  modelInfo: "Perfect for traditional festive wear, weddings, and grand ethnic occasions."
+},
   {
     id: "33",
     name: "Traditional Jhumka Earrings",
     slug: "traditional-jhumka-earrings-g3",
     category: "Accessories",
-    price: 749,
+    price: 699,
     description:
       "Classic traditional jhumka earrings with delicate filigree work and a bell-shaped drop. These timeless pieces add a touch of elegance to any ethnic ensemble. Light enough for extended wear yet bold enough to make a statement at celebrations and festivals.",
     colors: [
@@ -436,52 +435,50 @@ export const products: Product[] = [
     sizeGuide: "One size. Drop length: approximately 2.5 inches.",
     modelInfo: "Ideal for weddings, festivals, and traditional events",
   },
-  {
-    id: "34",
-    name: "Layered Beaded Necklace",
-    slug: "layered-beaded-necklace-g4",
-    category: "Accessories",
-    price: 1299,
-    description:
-      "A striking layered beaded necklace that combines multiple strands of vibrant beads with a central pendant detail. This statement piece elevates even the simplest outfit, making it ideal for festive gatherings, receptions, and cultural functions.",
-    colors: [
-      { name: "Green & Gold", hex: "#228B22" },
-    ],
-    sizes: ["One Size"],
-    images: [
-      "/g4.jpeg",
-    ],
-    badge: "New",
-    fabricCare: "Avoid contact with water and perfumes. Wipe with a dry cloth after each use. Store flat in a jewelry case.",
-    sizeGuide: "Length: 18 inches with 2-inch extender. Pendant size: 1.5 inches.",
-    modelInfo: "Pairs beautifully with kurtas and ethnic tops",
-  },
-  {
-    id: "35",
-    name: "Decorative Hair Accessory Set",
-    slug: "decorative-hair-accessory-set-g5",
-    category: "Accessories",
-    price: 449,
-    description:
-      "A set of decorative hair accessories featuring beautifully crafted clips, pins, and bands. Each piece is adorned with traditional motifs that complement Indian hairstyles. Perfect for weddings, parties, or adding a touch of charm to everyday styling.",
-    colors: [
-      { name: "Red & Gold", hex: "#DC143C" },
-    ],
-    sizes: ["One Size"],
-    images: [
-      "/g5.jpeg",
-    ],
-    badge: "New",
-    fabricCare: "Keep dry. Store in a pouch. Avoid exposure to hair products and heat styling tools.",
-    sizeGuide: "Set of 5 pieces. Suitable for all hair types.",
-    modelInfo: "Perfect for bridal, festive, and party hairstyles",
-  },
+ {
+  id: "34",
+  name: "Traditional Elephant Jhumka Earrings",
+  slug: "traditional-elephant-jhumka-earrings",
+  category: "Accessories",
+  price: 899,
+  description: "A stunning pair of traditional jhumka earrings featuring an intricate elephant motif, adorned with sparkling white stones, vibrant ruby and emerald-colored accents, and elegant cascading pearl drops. A perfect statement piece for festive celebrations and weddings.",
+  colors: [
+    { name: "Gold & Multi", hex: "#D4AF37" },
+  ],
+  sizes: ["One Size"],
+  images: [
+    "/g4.jpeg",
+  ],
+  badge: "New",
+  fabricCare: "Avoid contact with water and perfumes. Wipe with a dry cloth after each use. Store in a separate box or jewelry pouch to prevent tarnishing.",
+  sizeGuide: "Length: 3.5 inches. Width: 1.2 inches.",
+  modelInfo: "Pairs beautifully with silk sarees, lehengas, and heavy ethnic wear",
+},
+{
+  id: "35",
+  name: "Antique Gold Temple Jewelry Set",
+  slug: "antique-gold-temple-jewelry-set",
+  category: "Accessories",
+  price: 1300,
+  description: "An exquisite antique gold-finished temple jewelry set featuring an elaborate double-layer long necklace and matching jhumka earrings. The intricately crafted pieces are adorned with traditional divine motifs, elegant elephant carvings, and delicate pearl drop hangings, perfect for bridal and festive occasions.",
+  colors: [
+    { name: "Gold", hex: "#D4AF37" }
+  ],
+  sizes: ["One Size"],
+  images: [
+    "/g5.jpeg"
+  ],
+  badge: "New",
+  fabricCare: "Avoid contact with water, perfumes, and heat. Store in a soft pouch or airtight box after use.",
+  sizeGuide: "Adjustable necklace chain. Matching jhumka earrings included.",
+  modelInfo: "Perfect for traditional bridal, festive, and wedding wear"
+},
   {
     id: "36",
     name: "Pleated Cotton Trousers",
     slug: "pleated-cotton-trousers-p1",
     category: "Bottoms",
-    price: 1499,
+    price: 799,
     description:
       "Elegant pleated cotton trousers with a comfortable high-waisted fit. Features a straight-leg cut that flatters every body type. The lightweight cotton makes them ideal for long workdays and casual outings alike. Pair with kurtas, tunics, or crop tops for a polished look.",
     colors: [
@@ -501,7 +498,7 @@ export const products: Product[] = [
     name: "Ethnic Print Palazzo Pants",
     slug: "ethnic-print-palazzo-pants-p2",
     category: "Bottoms",
-    price: 1299,
+    price: 799,
     description:
       "Wide-legged palazzo pants adorned with traditional ethnic prints. The elasticated waistband ensures a comfortable fit, while the flowing silhouette adds grace to any outfit. Perfect for festive occasions, casual gatherings, or daily ethnic wear.",
     colors: [
@@ -521,7 +518,7 @@ export const products: Product[] = [
     name: "High-Waist Straight Pants",
     slug: "high-waist-straight-pants-p3",
     category: "Bottoms",
-    price: 999,
+    price: 799,
     description:
       "A versatile pair of high-waist straight pants crafted from soft cotton. The clean lines and minimal design make them a wardrobe essential that pairs seamlessly with everything from casual tees to elegant kurtas. Features functional front pockets and a zip fly.",
     colors: [
@@ -541,7 +538,7 @@ export const products: Product[] = [
     name: "Flared Ankle-Length Pants",
     slug: "flared-ankle-length-pants-p4",
     category: "Bottoms",
-    price: 1399,
+    price: 799,
     description:
       "Trendy flared pants with an ankle-length cut that shows off your footwear. The gentle flare from the knee creates a retro-inspired silhouette that's both flattering and fashionable. Made from breathable cotton with a hint of stretch for all-day comfort.",
     colors: [
@@ -561,7 +558,7 @@ export const products: Product[] = [
     name: "Drawstring Cotton Joggers",
     slug: "drawstring-cotton-joggers-p5",
     category: "Bottoms",
-    price: 1099,
+    price: 799,
     description:
       "Comfortable drawstring joggers made from soft cotton with a relaxed fit. Features an elasticated waistband with adjustable drawstring, side pockets, and tapered legs. Perfect for lounging, travel, or creating a smart-casual look with sneakers and a simple top.",
     colors: [
